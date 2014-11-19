@@ -1,0 +1,96 @@
+body{
+    background-image: url(homeback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #04B404; */
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    top: 400px;
+    left: 43%;
+}
+ 
+header{
+    background-color: #E12B21;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+ 
+h1{
+    position: absolute;
+            top:95%;
+            height: 45px;
+            width: 100%;
+}
+ 
+.porciento{
+     width: 50%;
+    height: 50%;
+}
+ 
+nav{
+    list-style: none;
+    background-color: #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+}
+ 
+ul{
+    padding: 15px;
+}
+ 
+nav li{
+    display: inline;
+    margin: 10px;
+    padding: 15px;
+}
+ 
+/*p{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}*/
+ 
+a:hover{
+    background-color: red;
+    color:white;
+    top:95%;
+    left:95%;
+ 
+}
+ 
+section{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+table{
+    left:10%;
+    top:10%;
+    text-align: left;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

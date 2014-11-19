@@ -20,7 +20,7 @@
 	}
 	$contador = mysql_num_rows($resultado);
 
-
+	
 	mysql_close();
 
 	if($contador==1)
@@ -28,7 +28,8 @@
 	
 		session_start();
 		$_SESSION['nombre'] = $nombre;
-		$segundos = 120 + time();
+
+		$segundos = 120000 + time();
 		setcookie(loggedin, date("F jS - g:1 a"), $segundos);
 		header("location:login_success.php");
 	}else {

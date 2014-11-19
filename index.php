@@ -1,16 +1,26 @@
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<style>
 		<style>
 			body{
-				background-color: #0eafef;
+				background-image: (homeback.jpg); 
 			}
 			#divForma{
 				position: absolute;
-				left:40%;
+				left:43%;
+				top:400px;
+
+			}
+			#background{
+				background-size: cover;
 			}
 		</style>
 	</head>
 	<body>
+		<div id="background">
+			<img src ="fotos/homeback.jpg"
+		</div>
 		<div id="divForma">
 			<form action="login.php" method="POST">
 				<p> Username: </p><input type="text" name="user" />
